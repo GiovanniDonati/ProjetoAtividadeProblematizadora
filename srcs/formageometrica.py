@@ -21,5 +21,6 @@ class FormaGeometrica(ABC):
         pass
 
     @abstractmethod
-    def exibirDados(self):
+    # def exibirDados(self):
+    def __str__(self):
         pass
